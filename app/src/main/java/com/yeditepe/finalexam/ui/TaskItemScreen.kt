@@ -16,6 +16,8 @@ fun TaskItemScreen() {
     // TODO 1: Create a mutable state to hold completion status (Boolean)
     // Initial value should be false
 
+    val status = mutableStateOf(remember(false))
+
     Column(modifier = Modifier.padding(16.dp)) {
 
         Text(
@@ -26,9 +28,20 @@ fun TaskItemScreen() {
         // TODO 2: Show text "Completed" or "Not Completed"
         // depending on completion state
 
+        Text(
+            text = "Completed",
+            style = MaterialTheme.typography.titleMedium,
+            ),
+        Text(
+            text = "Not Completed",
+            style = MaterialTheme.typography.titleMedium
+            )
+            
+
         Button(
             onClick = {
                 // TODO 3: Toggle completion state
+                onClickStatus = 
             }
         ) {
             Text("Change Status")
@@ -40,4 +53,9 @@ fun TaskItemScreen() {
 @Composable
 fun TaskItemPreview() {
     // TODO: Call TaskItemScreen
+    
+    fun TaskItemScreen(){
+
+        
+    }
 }
