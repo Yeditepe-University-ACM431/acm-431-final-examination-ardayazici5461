@@ -11,5 +11,13 @@ fun TaskDetailScreen(title: String) {
 
     Column(modifier = Modifier.padding(16.dp)) {
         // TODO 4: Display task title
+
+        Text(
+            text = text.title("Task 1"),
+            style = MaterialTheme.typography.titleLarge,
+            fontFamily = FontFamily.SansSerif,
+            fontWeight = FontWeight.weight(BOLD)
+            )
+        
     }
 }
