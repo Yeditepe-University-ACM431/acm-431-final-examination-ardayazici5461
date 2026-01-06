@@ -16,7 +16,7 @@ fun TaskItemScreen() {
     // TODO 1: Create a mutable state to hold completion status (Boolean)
     // Initial value should be false
     val status : Boolean = false
-    val status = mutableStateOf(remember(false))
+    val status = mutableStateOf(remember())
 
     Column(modifier = Modifier.padding(16.dp)) {
 
