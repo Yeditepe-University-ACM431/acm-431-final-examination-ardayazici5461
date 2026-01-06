@@ -2,7 +2,7 @@ package com.yeditepe.finalexam.viewmodel
 
 import androidx.lifecycle.ViewModel
 
-class TaskViewModel : ViewModel() {
+class TaskViewModel : ViewModel( task : List<Task>) {
 
     // TODO 1: Create a mutable state list of Task objects
     // Initially add at least 2 tasks
