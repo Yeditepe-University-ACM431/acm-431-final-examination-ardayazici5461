@@ -16,6 +16,14 @@ fun AppNavGraph() {
 
         // TODO 1: Add composable for "tasks"
 
+        @Composable
+        
+
         // TODO 2: Add composable for "taskDetail/{title}"
+
+        @Composable 
+        fun taskDetail() {
+            
+            
     }
 }
