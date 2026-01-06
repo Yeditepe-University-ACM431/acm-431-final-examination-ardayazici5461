@@ -12,5 +12,7 @@ class TaskViewModel : ViewModel( task : List<Task>) {
 
     fun toggleTask(taskId: Int) {
         // TODO 2: Update isCompleted for the given task
+
+        
     }
 }
