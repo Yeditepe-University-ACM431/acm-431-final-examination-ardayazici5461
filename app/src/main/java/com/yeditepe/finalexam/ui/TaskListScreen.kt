@@ -18,6 +18,14 @@ fun TaskListScreen(viewModel: TaskViewModel = viewModel()) {
     Column {
         // TODO 4: Display task titles and completion status
         // Use a simple Column or LazyColumn
+
+        LazyColumn(
+            modifier = Modifier.rememberScrollable(true),
+            Text( 
+                text = task.title("Task 1"),
+                text = textStatus("Completed")
+                )
+            )
     }
 }
 
